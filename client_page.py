@@ -300,7 +300,7 @@ def hapus_data_page(worksheet):
             row_to_update = None
             col_to_update = None
 
-            for col_offset in range(0, 9):  # Periksa hingga 8 kolom tambahan
+            for col_offset in range(0, 10):  # Periksa hingga 8 kolom tambahan
                 current_col = cell_header.col + col_offset
                 kategori_header_baris = worksheet.col_values(current_col)[cell_header.row:]  # Ambil kolom
                 kategori_header_baris_lower = [k.lower() for k in kategori_header_baris]  # Lowercase untuk perbandingan
