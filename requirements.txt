@@ -3,4 +3,4 @@ gspread
 oauth2client
 google-api-python-client
 cryptography
-difflib
+
